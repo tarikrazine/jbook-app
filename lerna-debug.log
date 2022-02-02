@@ -1,0 +1,15 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   dev: true,
+0 silly argv   D: true,
+0 silly argv   scope: 'local-api',
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': 'lerna',
+0 silly argv   pkg: 'types@express'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath /home/radevwebio/lerna/jbook
+3 error types: No matching version found for types@express.
+3 error     at pickManifest (/usr/lib/node_modules/lerna/node_modules/npm-pick-manifest/index.js:122:13)
+3 error     at /usr/lib/node_modules/lerna/node_modules/@evocateur/pacote/lib/fetchers/registry/manifest.js:43:18
